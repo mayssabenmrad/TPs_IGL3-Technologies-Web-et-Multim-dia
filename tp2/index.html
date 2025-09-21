@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+    
+    <h1>ToDoList</h1>
+    <input type="text" id="saisie">
+    <button id="btn" onclick="ajouterTache()">Ajouter</button>
+    <button id="btn" onclick="deleteall()">Tout Supprimer</button>
+    <label for="filter">Filtrer :</label>
+
+    <select id="filter" onchange="afficherliste()">
+        <option value="all">Toutes</option>
+        <option value="en cours">En cours</option>
+        <option value="done">Terminées</option>
+    </select>
+
+    <ul id="todo"></ul> 
+    <p id="stats"></p>
+    </body>
+</html>
