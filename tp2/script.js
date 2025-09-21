@@ -121,7 +121,3 @@ function statistics(){
     })
 }
 
-function filtrerTaches(){
-
-}
-
