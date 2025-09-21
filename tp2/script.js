@@ -115,9 +115,4 @@ function deleteall()
     
 }
 
-function statistics(){
-    listedetaches.forEach(task=>{
-
-    })
-}
 
