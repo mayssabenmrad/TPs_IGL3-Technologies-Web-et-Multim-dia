@@ -2,9 +2,10 @@ var listedetaches=[]; //tableau des taches
 console.log("Bienvenue"); //tester si le script fonctionne
 
 
-
 function sauvegarderLocalStorage() {
     localStorage.setItem("todolist", JSON.stringify(listedetaches));
+    //pour la transformer en chaine json 
+    //strcuture du localstorage: key-value pairs avec la valeur une chaine json
 }
 
 function chargerLocalStorage() {
