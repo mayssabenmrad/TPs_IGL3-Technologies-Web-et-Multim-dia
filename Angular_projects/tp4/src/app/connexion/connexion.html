@@ -1,0 +1,9 @@
+<div class="container">
+  <input [(ngModel)]="prenom" placeholder="Entrez votre prénom">
+  <button (click)="basculerConnexion()">
+    {{ isLoggedIn ? 'Se déconnecter' : 'Se connecter' }}
+  </button>
+
+  <p *ngIf="isLoggedIn">Bienvenue, {{ prenom }} ! 🎉</p>
+  <p *ngIf="messageErreur" class="erreur">{{ messageErreur }}</p>
+</div>

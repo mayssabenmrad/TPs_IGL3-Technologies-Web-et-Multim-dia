@@ -1,0 +1,10 @@
+<img [src]="img_url" width="100" />
+<div>
+    <button (click)="afficherProduit()" width="100"> Ajouter au panier </button>
+    <div [class.disponible]="enStock" [style.background-color]="enStock ? 'lightgreen' : 'lightcoral'">
+  <p>{{ enStock ? 'Produit en stock' : 'Produit en rupture de stock' }}</p>
+</div>
+
+<button (click)="toggleStock()">Basculer le stock</button>
+
+</div>

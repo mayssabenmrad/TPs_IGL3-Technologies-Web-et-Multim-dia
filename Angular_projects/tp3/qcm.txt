@@ -1,0 +1,81 @@
+Partie1:
+1-a
+2-c
+3-b
+4-b
+5-c
+6-b
+Partie2:
+1-a
+2-b
+3-b
+4-c
+5-a
+PARTIE3: 
+Caractéristiques principales d'Angular :
+
+Langage : TypeScript (superset de JavaScript).
+
+Architecture : basée sur le modèle MVC (Model-View-Controller).
+
+Data Binding : liaison bidirectionnelle (two-way data binding) entre la vue et le modèle.
+
+Routing, formulaires, gestion d’état, HTTP client, tests unitaires : inclus nativement.
+
+CLI puissant (Angular CLI) pour générer et gérer le projet facilement.
+
+Composants réutilisables et modules pour organiser le code.
+
+Différences avec React, Vue:
+*React et Vue utilisent JavaScript
+*React a été créé par Meta alors que Vue a été créé par Evan You
+*React est basé sur les composants alors que Vue est basé sur le modèle MVVM
+
+Avantages et inconvénients de chaque framework
+1-Angular
+
+Avantages :
+
+Structure claire et complète.
+
+Typage fort grâce à TypeScript.
+
+Excellent support de Google et communauté importante.
+
+Inconvénients :
+
+Courbe d’apprentissage élevée.
+
+2-React
+
+Avantages :
+
+Très flexible.
+
+communauté très active.
+
+Facile à intégrer dans des projets existants.
+
+Inconvénients :
+
+Nécessite des bibliothèques externes pour routing, gestion d’état, etc.
+
+Évolution rapide (mise à jour fréquente des versions et outils).
+
+3-Vue.js
+
+Avantages :
+
+Simplicité et facilité d’apprentissage.
+
+Syntaxe claire (HTML + JS + CSS dans un seul fichier .vue).
+
+Taille légère et intégration rapide dans des projets existants.
+
+Inconvénients :
+
+Moins adapté aux très grands projets que Angular.
+
+Communauté plus petite que React ou Angular (même si en croissance).
+
+Moins d’entreprises majeures l’utilisent.
