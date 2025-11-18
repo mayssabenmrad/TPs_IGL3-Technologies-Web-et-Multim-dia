@@ -1,3 +1,35 @@
+
+h3 {
+  color: #2c3e50;
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+}
+
+div {
+  margin-bottom: 10px;
+}
+
 .barree {
   text-decoration: line-through;
+  opacity: 0.7;
 }
+
+button {
+  margin-left: 10px;
+  padding: 6px 12px;
+  background: #3498db;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #2980b9;
+}
+
+ng-template p, p {
+  font-size: 1.1rem;
+  color: #555;
+}
+

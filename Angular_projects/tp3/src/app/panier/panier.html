@@ -1,0 +1,19 @@
+<h1>Liste des produits</h1>
+
+<app-produit 
+  nomProduit="Ordinateur Portable"
+  (ajouterAuPanier)="gererAjout($event)">
+</app-produit>
+
+<app-produit 
+  nomProduit="Clavier Sans Fil"
+  (ajouterAuPanier)="gererAjout($event)">
+</app-produit>
+
+<hr>
+
+<h2>Panier :</h2>
+
+<ul>
+  <li *ngFor="let p of produitsDansPanier">{{ p }}</li>
+</ul>

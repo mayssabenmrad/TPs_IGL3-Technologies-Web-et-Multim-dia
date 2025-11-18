@@ -1,0 +1,9 @@
+p {
+  font-size: 1.1rem;
+  color: #222;
+  background: #eef2f7;
+  padding: 10px 15px;
+  border-left: 4px solid #3498db;
+  border-radius: 6px;
+  width: fit-content;
+}

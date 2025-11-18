@@ -2,3 +2,47 @@
   border-bottom: 1px solid #ccc;
   margin-bottom: 10px;
 }
+
+/* TITRE PRINCIPAL */
+h3 {
+  color: #2c3e50;
+  font-size: 1.6rem;
+  margin-bottom: 15px;
+}
+
+/* ARTICLE SIMPLE */
+.article {
+  background: #f4f6f7;
+  padding: 12px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+}
+
+.article h4 {
+  margin: 0;
+  color: #34495e;
+}
+
+/* INPUTS + BOUTON D'AJOUT */
+input {
+  padding: 8px 10px;
+  margin-right: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 0.95rem;
+}
+
+button {
+  padding: 8px 14px;
+  background: #3498db;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background: #2980b9;
+}

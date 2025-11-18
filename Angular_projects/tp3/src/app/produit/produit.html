@@ -1,0 +1,13 @@
+<h2>{{ nomProduit }}</h2>
+
+<img [src]="img_url" width="120" />
+
+<p>Prix : {{ prix | currency:'EUR' }}</p>
+
+<div [style.background-color]="enStock ? 'lightgreen' : 'lightcoral'"
+     style="padding: 8px; margin: 10px 0; border-radius: 8px;">
+  <h4>{{ enStock ? 'Produit en stock' : 'Produit en rupture de stock' }}</h4>
+</div>
+
+<button (click)="envoyerAuPanier()">Ajouter au panier</button>
+<button (click)="toggleStock()">Basculer stock</button>

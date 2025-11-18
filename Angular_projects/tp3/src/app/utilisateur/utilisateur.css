@@ -1,0 +1,21 @@
+input {
+  padding: 10px 12px;
+  width: 250px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  transition: 0.2s;
+  margin-bottom: 10px;
+}
+
+input:focus {
+  border-color: #3498db;
+  box-shadow: 0 0 5px rgba(52,152,219,0.4);
+  outline: none;
+}
+
+p {
+  font-size: 1.2rem;
+  color: #2c3e50;
+  margin-top: 5px;
+}

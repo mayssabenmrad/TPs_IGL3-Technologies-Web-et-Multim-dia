@@ -1,13 +1,14 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import {Bienvenue} from './exercices/bienvenue/bienvenue';
-import {Produit} from './exercices/produit/produit';
+import {Bienvenue} from './bienvenue/bienvenue';
+import {Produit} from './produit/produit';
 import { FormsModule } from '@angular/forms';
-import {Utilisateur} from './exercices/utilisateur/utilisateur';
+import {Utilisateur} from './utilisateur/utilisateur';
+import { Panier } from './panier/panier';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Bienvenue, Produit, Utilisateur, FormsModule],
+  imports: [ Bienvenue, Produit, Utilisateur, FormsModule, Panier],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })

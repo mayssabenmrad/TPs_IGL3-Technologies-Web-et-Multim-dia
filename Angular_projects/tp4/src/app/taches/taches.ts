@@ -9,9 +9,9 @@ import { FormsModule } from '@angular/forms';
 })
 export class TachesComponent {
   taches = [
-    { description: 'Faire les courses', completee: false, priorite: 'haute' },
-    { description: 'Réviser Angular', completee: true, priorite: 'moyenne' },
-    { description: 'Sortir le chien', completee: false, priorite: 'basse' }
+    { description: 'Acheter pc', completee: false, priorite: 'haute' },
+    { description: 'Acheter souris', completee: true, priorite: 'moyenne' },
+    { description: 'Acheter clavier', completee: false, priorite: 'basse' }
   ];
 
   toggleTache(tache: any) {
